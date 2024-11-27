@@ -1,0 +1,138 @@
+#mynetwork {
+    width: 50%;
+    height:80%;
+    margin-left: 3%;
+    border: 2px solid rgb(26, 2, 2);
+    background-color: white;
+    
+    float: left;
+}
+#input{
+    width:40%;
+    height: 30%;
+    margin-right: 3%;
+    border: 1px solid  rgb(5, 0, 0);
+    float: right;
+    position: relative;
+    background-color: rgba(196, 228, 226, 0.596);
+    box-shadow: 0 8px 8px 4px rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+}
+body{
+    background-color:#f5fffa;
+}
+#ip2{
+    margin-right:1% ;
+    margin-top: 3%;
+    float:right;
+    color: black;
+}
+#ip1{
+    margin-top:3%;
+    float:left;
+    color: black;
+    margin-left: 1%;
+}
+#ip3{
+    margin-top: 5%;
+    margin-left: 3%;
+    float:left;
+    color:black;
+}
+#head{
+    font-size:xx-large;
+    font-style: normal;
+    font-weight: bolder;
+    margin-left: 40%;
+    padding-bottom: 2%;
+    color: black;
+    text-shadow: 1px 1px 2px #000000;
+}
+#btn-c{
+    color:white;
+    background-color: darkgreen;
+    border-radius:7%;
+    border:thin solid black;
+    font-size: x-large;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+#btn-c:hover{
+    box-shadow: 0 8px 8px 4px rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+#btn-r{
+    color:white;
+    background-color: rgb(146, 34, 34);
+    border-radius:7%;
+    border:thin solid black;
+    font-size: x-large;
+    margin-top: 3%;
+    margin-left: 2%;
+    
+}
+#btn-r:hover{
+    box-shadow: 0 8px 8px 4px rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+#btn-dfs{
+    color:white;
+    background-color: rgb(15, 233, 222);
+    border-radius: 6px;
+    border:thin transparent white;
+    font-size: large;
+    margin-top: 5%;
+    margin-left: 2%;
+}
+#btn-dfs:hover{
+    box-shadow: 0 8px 8px 4px rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+#btn-r-n{
+    color:white;
+    background-color: rgb(231, 42, 8);
+    border-radius: 6px;
+    border:thin solid black;
+    font-size: large;
+    margin-top: 5%;
+    
+    
+}
+#btn-r-n:hover{
+    box-shadow: 0 8px 8px 4px rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+
+#find_path{
+    color:white;
+    background-color: rgb(9, 128, 240);
+    border-radius: 6px;
+    border:thin solid black;
+    font-size: x-large;
+    margin-top: 5%;
+    margin-left: 2%;
+    
+    
+}
+#find_path:hover{
+    box-shadow: 0 8px 8px 4px rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+#reset{
+    color:white;
+    background-color: rgb(240, 205, 9);
+    border-radius: 6px;
+    border:thin solid black;
+    font-size: x-large;
+    margin-top: 5%;
+    margin-left: 2%;
+    
+    
+}
+#reset:hover{
+    box-shadow: 0 8px 8px 4px rgba(0, 0, 0, 0.2), 0 8px 20px 0 rgba(0, 0, 0, 0.19);
+    
+}
+#algo{
+    float: right;
+    
+}

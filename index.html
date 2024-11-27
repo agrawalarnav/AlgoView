@@ -1,0 +1,58 @@
+<html>
+<head>
+    <script type="text/javascript" src="https://unpkg.com/vis-network/standalone/umd/vis-network.min.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.2/css/bulma.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="columns">
+        <div style="background-color:#e9faf1;" class="column">
+            <h1 id="head"> <span style="color: red; text-shadow: 2px 2px 4px #000000; "> < </span>GRAPH ALGOVIS  <span style="color: rgb(255, 255, 0);  text-shadow: 2px 2px 4px #000000;;"> > </span></h1>
+        </div>
+    
+    </div>
+
+
+    <div id="con">
+        <div id="mynetwork"></div>
+        <div id="input">
+            
+                
+            
+            <form id="edge" >
+                <div id="ip1">
+               <label >from node_label:</label>
+            
+           <input  id="from" type="text" >
+        </div>
+           <div id="ip2">
+           <label > to node_label  :</label>
+           <input id="to" type="text" ></div>
+           <div id="w">
+           <button id="btn-c">Create Graph</button>
+           <button id="btn-r">remove edge</button>
+           <button id="find_path">find path</button>
+           <button id="reset">Reset</button>
+        </div>
+           <div id="ip3">
+            <label > node_label</label>
+            <input id="algoio" type="text" ></div>
+            <div id="algos">
+           <button id="btn-dfs">Run DFS</button>
+           <button id="btn-r-n">Remove Node</button>
+           
+        </div>
+            </form>
+            </div>
+    </div>
+
+        
+
+<script src="app.js">
+    
+  
+  
+    
+</script>
+</body>
+</html>
